@@ -1,0 +1,37 @@
+# ── Audio / Video Processing ──────────────────────────────────────────────────
+yt-dlp
+pydub
+ffmpeg-python
+torchaudio
+tqdm
+numpy
+
+# ── Machine Learning Core ─────────────────────────────────────────────────────
+torch
+
+# ── Hugging Face (Transcription + Embeddings) ─────────────────────────────────
+transformers                  # core HF library (Wav2Vec2, Whisper, etc.)
+huggingface-hub               # model download & caching
+accelerate                    # optimized inference on CPU/GPU
+
+
+# ── Translation ───────────────────────────────────────────────────────────────
+deep-translator
+
+# ── LangChain Ecosystem ───────────────────────────────────────────────────────
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-huggingface         # HF embeddings & LLMs inside LangChain
+
+# ── Vector Store / RAG ────────────────────────────────────────────────────────
+chromadb
+
+# ── PDF / Report Generation ───────────────────────────────────────────────────
+reportlab
+fpdf2
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv
+requests
