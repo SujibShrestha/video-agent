@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.runnables import RunnablePassthrough,RunnableLambda
-import os
+
 
 def get_llm():
     return ChatGroq(model="llama-3.3-70b-versatile",temperature=0.3)
