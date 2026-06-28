@@ -1,0 +1,6 @@
+{
+  "python.defaultInterpreterPath": "/home/sujib/Sujib/projects/ai-video/backend/myenv/bin/python",
+  "python.analysis.extraPaths": [
+    "/home/sujib/Sujib/projects/ai-video/backend"
+  ]
+}
